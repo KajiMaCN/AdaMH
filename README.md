@@ -4,7 +4,7 @@
 
 Circular RNAs (circRNAs) play a crucial role in human biological processes as miRNA sponges, regulating gene expression and affecting disease manifestations. Establishing heterogeneous nodal feature relationships through meta-paths can effectively enhance the predictive capability of models. Previous research primarily constructed associations between meta-paths manually, and excessive noise made it difficult to capture highly correlated hidden features. Equally important is learning more about feature distributions, which is key to improving the generalization ability of algorithms. To address these challenges, we propose an adaptive meta-path selection method named AdaMH. The core scheme introduces an adaptive path selection method that automatically identifies highly relevant heterogeneous meta-paths during iterative training rounds. Considering the sparsity of data distribution, we introduce controlled random noise into the data through graph contrastive learning to ensure an even distribution of features. Subsequently, a multi-head attention mechanism is utilized to capture relationships in the high-dimensional heterogeneous feature space, enhancing feature representation capability. Comparing with state-of-the-art (SOTA) algorithms, AdaMH is the only one that surpasses a performance threshold of 0.95 across seven evaluation metrics.
 
-![adahpc v5](figures\AdaMH.jpg)
+<img src="figures\AdaMH.jpg">
 
 ### contributions
 
